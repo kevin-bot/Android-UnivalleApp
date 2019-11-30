@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
@@ -36,6 +37,7 @@ import java.net.URL;
 
 public class HomeFragment extends Fragment {
 
+    private ProgressBar progreso;
     private HomeViewModel homeViewModel;
     private TextView idtxtParrafoInfoUnvalle;
 
@@ -66,7 +68,7 @@ public class HomeFragment extends Fragment {
         imageView2Publi = view.findViewById(R.id.img_frac_princi_rotativas2);
         imageView3Publi = view.findViewById(R.id.img_frac_princi_rotativas3);
 
-        int vfImagenes[]= {R.mipmap.univalle};
+        int vfImagenes[]= {R.mipmap.univallecaicedonia};
 
         for (int i=0;i<vfImagenes.length;i++){
             Llenar_ViewFlipper(vfImagenes[i]);
@@ -85,6 +87,7 @@ public class HomeFragment extends Fragment {
         vfContenedorIMG.addView(imageView);
         vfContenedorIMG.setFlipInterval(6000);
         vfContenedorIMG.setAutoStart(true);
+        //vfContenedorIMG.isFlipping();
 
         vfContenedorIMG.setInAnimation(getContext(),android.R.anim.slide_in_left);
         vfContenedorIMG.setOutAnimation(getContext(),android.R.anim.slide_out_right);
@@ -94,7 +97,7 @@ public class HomeFragment extends Fragment {
     }
 
     public void ejecutarwebservice(String URL){
-
+           // progreso.setVisibility(View.VISIBLE);
             JsonArrayRequest jsonArrayRequest=new JsonArrayRequest(URL, new Response.Listener<JSONArray>() {
                 @Override
                 public void onResponse(JSONArray response) {
@@ -104,7 +107,7 @@ public class HomeFragment extends Fragment {
                         try {
 
                             jsonObject=response.getJSONObject(i);
-                            idtxtParrafoInfoUnvalle.setText(jsonObject.optString("nombre"));
+                            //idtxtParrafoInfoUnvalle.setText(jsonObject.optString("nombre"));
                             vectorimagenes[i].setImageBitmap(Imagenesdejson(jsonObject.optString("ima")));
 
 
