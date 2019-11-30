@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.platzi.univalleapp.R;
 
-public class ToolsFragment extends Fragment {
+public class fragmenthelp extends Fragment {
 
     private ToolsViewModel toolsViewModel;
 
@@ -22,7 +22,7 @@ public class ToolsFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         toolsViewModel =
                 ViewModelProviders.of(this).get(ToolsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_tools, container, false);
+        View root = inflater.inflate(R.layout.fragment_help, container, false);
         final TextView textView = root.findViewById(R.id.text_tools);
         toolsViewModel.getText().observe(this, new Observer<String>() {
             @Override
