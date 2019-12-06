@@ -39,7 +39,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="BIENESTAR UVIVERSITARIO"
+                        android:text="BIENESTAR UNIVERSITARIO"
                         android:textColor="#fff"
                         android:layout_gravity="center"
                         android:textStyle="bold"
@@ -87,8 +87,8 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="ARTE"
-                                    android:textSize="14sp"
+                                    android:text="Cultura"
+                                    android:textSize="16sp"
                                     android:layout_below="@+id/imagenView1"
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="5dp"
@@ -131,8 +131,8 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="DEPORTE"
-                                    android:textSize="14sp"
+                                    android:text="Dorte"
+                                    android:textSize="16sp"
                                     android:layout_below="@+id/imagenView2"
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="10dp"
@@ -181,8 +181,8 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="EXITO ACADEMICO"
-                                    android:textSize="14sp"
+                                    android:text="Éxito Académico"
+                                    android:textSize="16sp"
                                     android:layout_below="@+id/imagenView3"
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="10dp"
@@ -216,16 +216,16 @@
 
                                 <ImageView
                                     android:id="@+id/imagenView4"
-                                    android:layout_width="50dp"
-                                    android:layout_height="50dp"
-                                    android:src="@drawable/profile"
+                                    android:layout_width="80dp"
+                                    android:layout_height="65dp"
+                                    android:src="@drawable/diversidad"
                                     android:layout_centerInParent="true"/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="BIENESTAR PROFES"
-                                    android:textSize="14sp"
+                                    android:text="Diversidad y género"
+                                    android:textSize="16sp"
                                     android:gravity="center"
                                     android:layout_below="@+id/imagenView4"
                                     android:layout_centerHorizontal="true"
