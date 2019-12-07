@@ -23,19 +23,11 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="140dp"
                     android:orientation="vertical"
                     android:gravity="center"
                     android:background="@color/colorPrimary">
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="ARTE"
-                        android:textColor="#ffffff"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -43,13 +35,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:layout_marginTop="100dp"
+                    android:layout_marginTop="80dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="135dp"
+                        android:layout_height="150dp"
                         android:orientation="horizontal"
                         android:layout_marginBottom="10dp">
 
@@ -68,19 +60,20 @@
 
                                 <ImageView
                                     android:id="@+id/imagenView1"
-                                    android:layout_width="50dp"
-                                    android:layout_height="50dp"
+                                    android:layout_width="80dp"
+                                    android:layout_height="75dp"
                                     android:layout_centerInParent="true"
-                                    android:src="@drawable/profile" />
+                                    android:layout_centerVertical="true"
+                                    android:src="@drawable/baloncesto" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_below="@+id/imagenView1"
                                     android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="10dp"
+                                    android:layout_marginTop="8dp"
                                     android:layout_marginBottom="10dp"
-                                    android:text="Musica"
+                                    android:text="Baloncesto"
                                     android:textSize="16sp">
 
                                 </TextView>
@@ -111,19 +104,19 @@
 
                                 <ImageView
                                     android:id="@+id/imagenView2"
-                                    android:layout_width="50dp"
-                                    android:layout_height="50dp"
+                                    android:layout_width="80dp"
+                                    android:layout_height="75dp"
                                     android:layout_centerInParent="true"
-                                    android:src="@drawable/profile" />
+                                    android:src="@drawable/tenisdemesa" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_below="@+id/imagenView2"
                                     android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="10dp"
+                                    android:layout_marginTop="8dp"
                                     android:layout_marginBottom="10dp"
-                                    android:text="Teatro"
+                                    android:text="Tenis de mesa"
                                     android:textSize="16sp">
 
                                 </TextView>
@@ -142,7 +135,277 @@
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="135dp"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="75dp"
+                                    android:src="@drawable/futbol"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Futbol"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imagenView5"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btndanza5"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView6"
+                                    android:layout_width="80dp"
+                                    android:layout_height="75dp"
+                                    android:src="@drawable/futbolsala"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Futbol de salon"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imagenView6"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="7dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btncanto6"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView7"
+                                    android:layout_width="80dp"
+                                    android:layout_height="75dp"
+                                    android:src="@drawable/voeibol"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Voleibol"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imagenView7"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btndanza7"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView8"
+                                    android:layout_width="80dp"
+                                    android:layout_height="75dp"
+                                    android:src="@drawable/gimnasio"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Gimnasio"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imagenView8"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="7dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btncanto8"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView9"
+                                    android:layout_width="80dp"
+                                    android:layout_height="71dp"
+                                    android:src="@drawable/parque"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Parque recleacional"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imagenView9"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btndanza9"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView10"
+                                    android:layout_width="80dp"
+                                    android:layout_height="75dp"
+                                    android:src="@drawable/natacion"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Natación"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imagenView10"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="7dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btncanto10"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
                         android:orientation="horizontal"
                         android:layout_marginBottom="10dp">
 
@@ -161,14 +424,14 @@
 
                                 <ImageView
                                     android:id="@+id/imagenView3"
-                                    android:layout_width="50dp"
-                                    android:layout_height="50dp"
-                                    android:src="@drawable/profile"
+                                    android:layout_width="80dp"
+                                    android:layout_height="75dp"
+                                    android:src="@drawable/ajedrez"
                                     android:layout_centerInParent="true"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Danza"
+                                    android:text="Ajedrez"
                                     android:textSize="16sp"
                                     android:layout_below="@+id/imagenView3"
                                     android:layout_centerHorizontal="true"
@@ -202,18 +465,18 @@
 
                                 <ImageView
                                     android:id="@+id/imagenView4"
-                                    android:layout_width="50dp"
-                                    android:layout_height="50dp"
-                                    android:src="@drawable/profile"
+                                    android:layout_width="80dp"
+                                    android:layout_height="75dp"
+                                    android:src="@drawable/atletismo"
                                     android:layout_centerInParent="true"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Canto"
+                                    android:text="Atetismo"
                                     android:textSize="16sp"
                                     android:layout_below="@+id/imagenView4"
                                     android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="10dp"
+                                    android:layout_marginTop="7dp"
                                     android:layout_marginBottom="10dp">
 
                                 </TextView>
@@ -230,6 +493,7 @@
                         </androidx.cardview.widget.CardView>
 
                     </LinearLayout>
+
 
                 </LinearLayout>
 

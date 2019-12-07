@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.Cultura.fracmentmusica">
+    tools:context=".ui.Cultura.fracmentoartesplasticas">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -38,7 +38,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -67,7 +67,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:maxLength="200"
-                        android:text="@string/musicaTexto"
+                        android:text="@string/TeatroTexto"
                         android:id="@+id/Mtxt_texto_actividad1"/>
 
 
@@ -91,7 +91,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -120,7 +120,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:maxLength="200"
-                        android:text="@string/musicaTexto"
+                        android:text="@string/TeatroTexto"
                         android:id="@+id/Mtxt_texto_actividadDos"/>
 
 
@@ -144,7 +144,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -173,7 +173,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:maxLength="200"
-                        android:text="@string/musicaTexto"
+                        android:text="@string/TeatroTexto"
                         android:id="@+id/Mtxt_texto_actividadTres"/>
 
 
@@ -197,7 +197,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -250,7 +250,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -279,7 +279,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:maxLength="200"
-                        android:text="@string/musicaTexto"
+                        android:text="@string/TeatroTitulo"
                         android:id="@+id/Mtxt_texto_actividadCinco"/>
 
 
@@ -303,7 +303,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -332,7 +332,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:maxLength="200"
-                        android:text="@string/musicaTexto"
+                        android:text="@string/TeatroTexto"
                         android:id="@+id/Mtxt_texto_actividadSix"/>
 
 
@@ -356,7 +356,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -385,7 +385,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:maxLength="200"
-                        android:text="@string/musicaTexto"
+                        android:text="@string/TeatroTitulo"
                         android:id="@+id/Mtxt_texto_actividad7"/>
 
 
@@ -409,7 +409,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -462,7 +462,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -491,7 +491,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:maxLength="200"
-                        android:text="@string/musicaTexto"
+                        android:text="@string/TeatroTexto"
                         android:id="@+id/Mtxt_texto_actividad9"/>
 
 
@@ -515,7 +515,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
+                        android:text="@string/Artes_plasticas_titulo"
                         android:textStyle="bold"
                         android:maxLength="40"
                         android:gravity="center"
@@ -544,7 +544,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:maxLength="200"
-                        android:text="@string/musicaTexto"
+                        android:text="@string/TeatroTexto"
                         android:id="@+id/Mtxt_texto_actividad10"/>
 
 
@@ -554,6 +554,7 @@
 
 
         </LinearLayout>
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

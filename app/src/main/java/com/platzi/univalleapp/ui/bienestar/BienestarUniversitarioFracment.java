@@ -1,10 +1,11 @@
-package com.platzi.univalleapp.ui.gallery;
+package com.platzi.univalleapp.ui.bienestar;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.QuickContactBadge;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -44,6 +45,12 @@ public class BienestarUniversitarioFracment extends Fragment {
             public void onClick(View view) {
                 findNavController(view).navigate(R.id.action_nav_bienestar_to_shareFragment);
 
+            }
+        });
+        btnDeprote_disca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                findNavController(view).navigate(R.id.action_nav_bienestar_to_sendFragment);
             }
         });
         return view;

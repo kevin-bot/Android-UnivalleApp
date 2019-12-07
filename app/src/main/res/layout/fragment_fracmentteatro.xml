@@ -4,556 +4,557 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.share.fracmentteatro">
+    tools:context=".ui.Cultura.fracmentteatro">
 
     <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    android:id="@+id/scrollView2"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorfondo"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/colorfondo"
-            android:orientation="vertical">
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica1">
 
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica1">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TeatroTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividad1"/>
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividad1"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/TeatroTexto"
+                    android:id="@+id/Mtxt_texto_actividad1"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividad1"/>
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica2">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividad1"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividad1"/>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica2">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TeatroTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividadDos"/>
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividadDos"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/TeatroTexto"
+                    android:id="@+id/Mtxt_texto_actividadDos"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividadDos"/>
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica3">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividadDos"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividadDos"/>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica3">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TeatroTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividadTres"/>
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividadTres"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/TeatroTexto"
+                    android:id="@+id/Mtxt_texto_actividadTres"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividadTres"/>
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica4">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividadTres"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividadTres"/>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica4">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/musicaTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividadCuatro"/>
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividadCuatro"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/musicaTexto"
+                    android:id="@+id/Mtxt_texto_actividadCuatro"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividadCuatro"/>
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica5">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividadCuatro"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividadCuatro"/>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica5">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TeatroTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividadCinco"/>
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividadcinco"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/TeatroTitulo"
+                    android:id="@+id/Mtxt_texto_actividadCinco"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividadCinco"/>
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica6">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividadcinco"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividadCinco"/>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica6">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TeatroTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividadsix"/>
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividadSix"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/TeatroTexto"
+                    android:id="@+id/Mtxt_texto_actividadSix"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividadsix"/>
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica7">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividadSix"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividadSix"/>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica7">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TeatroTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividad7"/>
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividad7"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/TeatroTitulo"
+                    android:id="@+id/Mtxt_texto_actividad7"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividad7"/>
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica8">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividad7"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividad7"/>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica8">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/musicaTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividad8"/>
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividad8"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/musicaTexto"
+                    android:id="@+id/Mtxt_texto_actividad8"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividad8"/>
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica9">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividad8"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividad8"/>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica9">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TeatroTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividad9"/>
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividad9"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/TeatroTexto"
+                    android:id="@+id/Mtxt_texto_actividad9"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividad9"/>
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:id="@+id/CidcardviewMusica10">
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividad9"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividad9"/>
-
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="4dp"
-                android:id="@+id/CidcardviewMusica10">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TeatroTitulo"
+                    android:textStyle="bold"
+                    android:maxLength="40"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:id="@+id/Mtxt_titulo_actividad10" />
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:padding="5dp"
+                    android:id="@+id/Mimg_actividad10"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:maxLength="200"
+                    android:text="@string/TeatroTexto"
+                    android:id="@+id/Mtxt_texto_actividad10"/>
 
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/musicaTitulo"
-                        android:textStyle="bold"
-                        android:maxLength="40"
-                        android:gravity="center"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp"
-                        android:id="@+id/Mtxt_titulo_actividad10" />
+            </LinearLayout>
 
-                    <View
-                        android:layout_width="300dp"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="5dp"
-                        android:id="@+id/Mimg_actividad10"/>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/lightgray" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:maxLength="200"
-                        android:text="@string/musicaTexto"
-                        android:id="@+id/Mtxt_texto_actividad10"/>
+        </androidx.cardview.widget.CardView>
 
 
-                </LinearLayout>
+    </LinearLayout>
 
-            </androidx.cardview.widget.CardView>
-
-
-        </LinearLayout>
-    </ScrollView>
+</ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

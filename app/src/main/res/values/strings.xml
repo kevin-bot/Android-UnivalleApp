@@ -17,17 +17,17 @@
 
 
     <!--Cultura-->
-    <string name="musicaTitulo">Musica</string>
-    <string name="musicaTexto">Eventos,Actividades,Conciertos,Presentaciones</string>
+    <string name="musicaTitulo">Música</string>
+    <string name="musicaTexto">Eventos</string>
 
     <string name="TeatroTitulo">Teatro</string>
-    <string name="TeatroTexto">Eventos,Actividades,Presentaciones</string>
+    <string name="TeatroTexto">Eventos</string>
 
     <string name="DanzaTitulo">Danza</string>
-    <string name="DanzaTexto">Eventos,Actividades,Presentaciones</string>
+    <string name="DanzaTexto">Eventos</string>
 
-    <string name="CantoTitulo">Canto</string>
-    <string name="CantoTexto">Eventos,Actividades,Conciertos,Presentaciones</string>
+    <string name="Artes_plasticas_titulo">Artes platicas</string>
+    <string name="Artes_plasticas_texto">Eventos</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

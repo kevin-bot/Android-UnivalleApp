@@ -13,34 +13,43 @@
 
     <fragment
         android:id="@+id/nav_bienestar"
-        android:name="com.platzi.univalleapp.ui.gallery.BienestarUniversitarioFracment"
+        android:name="com.platzi.univalleapp.ui.bienestar.BienestarUniversitarioFracment"
         android:label="Bienestar Universitario"
         tools:layout="@layout/fragment_bienestaruniversitario" >
         <action
             android:id="@+id/action_nav_bienestar_to_shareFragment"
             app:destination="@+id/nav_arte" />
+        <action
+            android:id="@+id/action_nav_bienestar_to_sendFragment"
+            app:destination="@id/sendFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/nav_arte"
-        android:name="com.platzi.univalleapp.ui.share.ArteFracment"
-        android:label="Arte"
-        tools:layout="@layout/fragment_arte" >
+        android:name="com.platzi.univalleapp.ui.Cultura.culturaFracment"
+        android:label="Cultura"
+        tools:layout="@layout/fragment_cultura" >
         <action
             android:id="@+id/action_nav_arte_to_fracmentmusica"
             app:destination="@id/fracmentmusica" />
         <action
             android:id="@+id/action_nav_arte_to_fracmentteatro"
             app:destination="@id/fracmentteatro" />
+        <action
+            android:id="@+id/action_nav_arte_to_fracmentodanza"
+            app:destination="@id/fracmentodanza" />
+        <action
+            android:id="@+id/action_nav_arte_to_fracmentoartesplasticas"
+            app:destination="@id/fracmentoartesplasticas" />
     </fragment>
     <fragment
         android:id="@+id/fracmentmusica"
-        android:name="com.platzi.univalleapp.ui.share.fracmentmusica"
-        android:label="Musica"
+        android:name="com.platzi.univalleapp.ui.Cultura.fracmentmusica"
+        android:label="Actividades Música"
         tools:layout="@layout/fragment_fracmentmusica" />
     <fragment
         android:id="@+id/fracmentteatro"
-        android:name="com.platzi.univalleapp.ui.share.fracmentteatro"
+        android:name="com.platzi.univalleapp.ui.Cultura.fracmentteatro"
         android:label="Actividades Teatro"
         tools:layout="@layout/fragment_fracmentteatro" />
 
@@ -49,5 +58,20 @@
         android:name="com.platzi.univalleapp.ui.tools.fragmenthelp"
         android:label="Ayuda"
         tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/fracmentodanza"
+        android:name="com.platzi.univalleapp.ui.Cultura.fracmentodanza"
+        android:label="Actividades danza"
+        tools:layout="@layout/fragment_fracmentodanza" />
+    <fragment
+        android:id="@+id/fracmentoartesplasticas"
+        android:name="com.platzi.univalleapp.ui.Cultura.fracmentoartesplasticas"
+        android:label="Artes plásticas"
+        tools:layout="@layout/fragment_fracmentoartesplasticas" />
+    <fragment
+        android:id="@+id/sendFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.SendFragment"
+        android:label="Deporte"
+        tools:layout="@layout/fragment_send" />
 
 </navigation>

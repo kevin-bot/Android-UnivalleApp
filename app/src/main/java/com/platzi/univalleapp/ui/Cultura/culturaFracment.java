@@ -1,4 +1,4 @@
-package com.platzi.univalleapp.ui.share;
+package com.platzi.univalleapp.ui.Cultura;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,7 +14,7 @@ import com.platzi.univalleapp.R;
 
 import static androidx.navigation.Navigation.findNavController;
 
-public class ArteFracment extends Fragment {
+public class culturaFracment extends Fragment {
 
     private ShareViewModel shareViewModel;
     private Button btnmusica,btnteatro,btndanza,btncanto;
@@ -23,7 +23,7 @@ public class ArteFracment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         shareViewModel =
                 ViewModelProviders.of(this).get(ShareViewModel.class);
-        View view = inflater.inflate(R.layout.fragment_arte, container, false);
+        View view = inflater.inflate(R.layout.fragment_cultura, container, false);
        /* final TextView textView = root.findViewById(R.id.text_share);
         shareViewModel.getText().observe(this, new Observer<String>() {
             @Override
@@ -50,19 +50,19 @@ public class ArteFracment extends Fragment {
             }
         });
 
-        /* btndanza.setOnClickListener(new View.OnClickListener() {
+         btndanza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                findNavController(view).navigate(R.id.idaction_fracment_artis_crea_cultu_to_danza);
+                findNavController(view).navigate(R.id.action_nav_arte_to_fracmentodanza);
             }
         });
 
         btncanto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                findNavController(view).navigate(R.id.action_fracment_artis_crea_cultu_to_canto);
+                findNavController(view).navigate(R.id.action_nav_arte_to_fracmentoartesplasticas);
             }
-        });*/
+        });
 
         return view;
     }

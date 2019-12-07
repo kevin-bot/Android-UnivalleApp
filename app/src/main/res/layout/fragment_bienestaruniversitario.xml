@@ -82,7 +82,7 @@
                                     android:id="@+id/imagenView1"
                                     android:layout_width="80dp"
                                     android:layout_height="65dp"
-                                    android:src="@drawable/arte"
+                                    android:src="@drawable/teatro"
                                     android:layout_centerInParent="true"/>
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -126,7 +126,7 @@
                                     android:id="@+id/imagenView2"
                                     android:layout_width="80dp"
                                     android:layout_height="65dp"
-                                    android:src="@drawable/deporte"
+                                    android:src="@drawable/atletismo"
                                     android:layout_centerInParent="true"/>
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -218,7 +218,7 @@
                                     android:id="@+id/imagenView4"
                                     android:layout_width="80dp"
                                     android:layout_height="65dp"
-                                    android:src="@drawable/diversidad"
+                                    android:src="@drawable/diversidadygenero"
                                     android:layout_centerInParent="true"/>
 
                                 <TextView
