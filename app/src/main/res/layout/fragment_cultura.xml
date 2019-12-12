@@ -61,7 +61,7 @@
                                 <ImageView
                                     android:id="@+id/imagenView1"
                                     android:layout_width="80dp"
-                                    android:layout_height="75dp"
+                                    android:layout_height="72dp"
                                     android:layout_centerInParent="true"
                                     android:layout_centerVertical="true"
                                     android:src="@drawable/musica" />
@@ -105,7 +105,7 @@
                                 <ImageView
                                     android:id="@+id/imagenView2"
                                     android:layout_width="80dp"
-                                    android:layout_height="75dp"
+                                    android:layout_height="72dp"
                                     android:layout_centerInParent="true"
                                     android:src="@drawable/teatro" />
 
@@ -156,7 +156,7 @@
                                 <ImageView
                                     android:id="@+id/imagenView3"
                                     android:layout_width="80dp"
-                                    android:layout_height="75dp"
+                                    android:layout_height="72dp"
                                     android:src="@drawable/danza"
                                     android:layout_centerInParent="true"/>
                                 <TextView
@@ -197,7 +197,7 @@
                                 <ImageView
                                     android:id="@+id/imagenView4"
                                     android:layout_width="80dp"
-                                    android:layout_height="75dp"
+                                    android:layout_height="72dp"
                                     android:src="@drawable/artesplasticas"
                                     android:layout_centerInParent="true"/>
                                 <TextView

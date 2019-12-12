@@ -26,6 +26,19 @@
     <string name="DanzaTitulo">Danza</string>
     <string name="DanzaTexto">Eventos</string>
 
+
+    <string name="BaloncestoTitulo">Baloncesto</string>
+    <string name="TenisdemesaTitulo">Tenis de mesa</string>
+    <string name="FutbolTitulo">Futbol</string>
+    <string name="FutboldesalontoTitulo">Futbol de salon</string>
+    <string name="voleybolTitulo">Voleibol</string>
+    <string name="GimnasioTitulo">Gimnasio</string>
+    <string name="ParqueRecreacionalTitulo">Parque recreacional</string>
+    <string name="NatacionTitulo">Natación</string>
+    <string name="AjedrezTitulo">Ajedrez</string>
+    <string name="AtletismoTitulo">Atletismo</string>
+
+
     <string name="Artes_plasticas_titulo">Artes platicas</string>
     <string name="Artes_plasticas_texto">Eventos</string>
 

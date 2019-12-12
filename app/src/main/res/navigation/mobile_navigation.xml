@@ -70,8 +70,89 @@
         tools:layout="@layout/fragment_fracmentoartesplasticas" />
     <fragment
         android:id="@+id/sendFragment"
-        android:name="com.platzi.univalleapp.ui.deporte.SendFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.DeporteFragment"
         android:label="Deporte"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/fragment_send" >
+        <action
+            android:id="@+id/action_sendFragment_to_fragmentBaloncesto"
+            app:destination="@id/fragmentBaloncesto" />
+        <action
+            android:id="@+id/action_sendFragment_to_tenisdemesaFragment"
+            app:destination="@id/tenisdemesaFragment" />
+        <action
+            android:id="@+id/action_sendFragment_to_futbolFragment"
+            app:destination="@id/futbolFragment" />
+        <action
+            android:id="@+id/action_sendFragment_to_fultbolSalaFragment"
+            app:destination="@id/fultbolSalaFragment" />
+        <action
+            android:id="@+id/action_sendFragment_to_voleybolFragment"
+            app:destination="@id/voleybolFragment" />
+        <action
+            android:id="@+id/action_sendFragment_to_gimnasioFragment"
+            app:destination="@id/gimnasioFragment" />
+        <action
+            android:id="@+id/action_sendFragment_to_parquerecreacionalFragment"
+            app:destination="@id/parquerecreacionalFragment" />
+        <action
+            android:id="@+id/action_sendFragment_to_natacionFragment"
+            app:destination="@id/natacionFragment" />
+        <action
+            android:id="@+id/action_sendFragment_to_ajedrezFragment"
+            app:destination="@id/ajedrezFragment" />
+        <action
+            android:id="@+id/action_sendFragment_to_atletismoFragment"
+            app:destination="@id/atletismoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBaloncesto"
+        android:name="com.platzi.univalleapp.ui.deporte.FragmentBaloncesto"
+        android:label="Actividades baloncesto"
+        tools:layout="@layout/fragment_fragment_baloncesto" />
+    <fragment
+        android:id="@+id/tenisdemesaFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.tenisdemesaFragment"
+        android:label="Actividades tenis de mesa"
+        tools:layout="@layout/fragment_tenisdemesa" />
+    <fragment
+        android:id="@+id/futbolFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.FutbolFragment"
+        android:label="Actividades futbol"
+        tools:layout="@layout/fragment_futbol" />
+    <fragment
+        android:id="@+id/fultbolSalaFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.FultbolSalaFragment"
+        android:label="Actividades fultbol sala"
+        tools:layout="@layout/fragment_fultbol_sala" />
+    <fragment
+        android:id="@+id/voleybolFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.voleybolFragment"
+        android:label="Actividades voleibol"
+        tools:layout="@layout/fragment_voleybol" />
+    <fragment
+        android:id="@+id/gimnasioFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.GimnasioFragment"
+        android:label="Actividades gimnasio"
+        tools:layout="@layout/fragment_gimnasio" />
+    <fragment
+        android:id="@+id/parquerecreacionalFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.parquerecreacionalFragment"
+        android:label="Actividades parque recreacional"
+        tools:layout="@layout/fragment_parquerecreacional" />
+    <fragment
+        android:id="@+id/natacionFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.NatacionFragment"
+        android:label="Actividades natacion"
+        tools:layout="@layout/fragment_natacion" />
+    <fragment
+        android:id="@+id/ajedrezFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.AjedrezFragment"
+        android:label="Actividades ajedrez"
+        tools:layout="@layout/fragment_ajedrez" />
+    <fragment
+        android:id="@+id/atletismoFragment"
+        android:name="com.platzi.univalleapp.ui.deporte.AtletismoFragment"
+        android:label="Actidades atletismo"
+        tools:layout="@layout/fragment_atletismo" />
 
 </navigation>

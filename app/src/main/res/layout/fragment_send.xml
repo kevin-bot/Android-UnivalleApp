@@ -79,7 +79,7 @@
                                 </TextView>
 
                                 <Button
-                                    android:id="@+id/btnmusica"
+                                    android:id="@+id/btnbaloncesto"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@android:color/transparent" />
@@ -122,7 +122,7 @@
                                 </TextView>
 
                                 <Button
-                                    android:id="@+id/btnteatro"
+                                    android:id="@+id/btntenisdemesa"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@android:color/transparent" />
@@ -169,11 +169,12 @@
                                     android:layout_marginBottom="10dp">
 
                                 </TextView>
+
                                 <Button
+                                    android:id="@+id/btnFutbol"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btndanza5"
-                                    android:background="@android:color/transparent"/>
+                                    android:background="@android:color/transparent" />
 
                             </RelativeLayout>
 
@@ -210,10 +211,11 @@
                                     android:layout_marginBottom="10dp">
 
                                 </TextView>
+
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btncanto6"
+                                    android:id="@+id/btnFutbolsala"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
@@ -262,7 +264,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btndanza7"
+                                    android:id="@+id/btnvoleibol"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
@@ -303,7 +305,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btncanto8"
+                                    android:id="@+id/btngimnasio"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
@@ -335,7 +337,7 @@
                                 <ImageView
                                     android:id="@+id/imagenView9"
                                     android:layout_width="80dp"
-                                    android:layout_height="71dp"
+                                    android:layout_height="69dp"
                                     android:src="@drawable/parque"
                                     android:layout_centerInParent="true"/>
                                 <TextView
@@ -352,7 +354,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btndanza9"
+                                    android:id="@+id/btnparquerecreacional"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
@@ -393,7 +395,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btncanto10"
+                                    android:id="@+id/btnnatacion"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
@@ -425,9 +427,10 @@
                                 <ImageView
                                     android:id="@+id/imagenView3"
                                     android:layout_width="80dp"
-                                    android:layout_height="75dp"
+                                    android:layout_height="70dp"
                                     android:src="@drawable/ajedrez"
                                     android:layout_centerInParent="true"/>
+
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -442,7 +445,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btndanza"
+                                    android:id="@+id/btnajedrez"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
@@ -466,7 +469,7 @@
                                 <ImageView
                                     android:id="@+id/imagenView4"
                                     android:layout_width="80dp"
-                                    android:layout_height="75dp"
+                                    android:layout_height="72dp"
                                     android:src="@drawable/atletismo"
                                     android:layout_centerInParent="true"/>
                                 <TextView
@@ -483,7 +486,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btncanto"
+                                    android:id="@+id/btnatletismo"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
