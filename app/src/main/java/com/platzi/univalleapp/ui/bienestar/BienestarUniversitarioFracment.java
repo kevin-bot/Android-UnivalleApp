@@ -18,7 +18,7 @@ import static androidx.navigation.Navigation.findNavController;
 public class BienestarUniversitarioFracment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
-    private Button btnArte_cultu,btnDeprote_disca,btnExitoEstudiantil,btnProfesores_diversidad;
+    private Button btnArte_cultu,btnDeprote_disca,btnExitoEstudiantil,btndiversidadygenero;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class BienestarUniversitarioFracment extends Fragment {
         btnArte_cultu=view.findViewById(R.id.buttonArte);
         btnDeprote_disca=view.findViewById(R.id.buttonDeporte);
         btnExitoEstudiantil=view.findViewById(R.id.buttonExitoacademiuco);
-        btnProfesores_diversidad=view.findViewById(R.id.btnProfe_diversidad);
+        btndiversidadygenero=view.findViewById(R.id.btndiversidadygenero);
        /* final TextView textView = root.findViewById(R.id.text_gallery);
         galleryViewModel.getText().observe(this, new Observer<String>() {
             @Override
@@ -53,6 +53,20 @@ public class BienestarUniversitarioFracment extends Fragment {
                 findNavController(view).navigate(R.id.action_nav_bienestar_to_sendFragment);
             }
         });
+        btnExitoEstudiantil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                findNavController(view).navigate(R.id.action_nav_bienestar_to_exitoAcademicoFragment);
+            }
+        });
+
+        btndiversidadygenero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                findNavController(view).navigate(R.id.action_nav_bienestar_to_diversidadYgenero);
+            }
+        });
+
         return view;
     }
 

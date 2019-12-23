@@ -1,8 +1,23 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margenArribalinearBienestar">215dp</dimen>
+    <dimen name="AltodeLascardView">160dp</dimen>
+    <dimen name="bordeDeCardView">4dp</dimen>
+    <dimen name="marIzqLinerarCardView">10dp</dimen>
+    <dimen name="marDereLinearCarview">10dp</dimen>
+    <dimen name="marginArribaLinearSubcategorias">80dp</dimen>
+    <dimen name="marAbajoEntreCadaCardView">10dp</dimen>
+    <dimen name="marginSeparadorCardview">5dp</dimen>
+
+    <dimen name="margenderecholinearDiversidad">30dp</dimen>
+    <dimen name="margenizquierdoLinearDiversidad">30dp</dimen>
+
+
+
 </resources>

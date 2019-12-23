@@ -52,27 +52,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:layout_marginTop="215dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp">
+                    android:layout_marginTop="@dimen/margenArribalinearBienestar"
+                    android:layout_marginLeft="@dimen/marIzqLinerarCardView"
+                    android:layout_marginRight="@dimen/marDereLinearCarview">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="150dp"
+                        android:layout_height="@dimen/AltodeLascardView"
                         android:orientation="horizontal"
-                        android:layout_marginBottom="10dp">
+                        android:layout_marginBottom="@dimen/marAbajoEntreCadaCardView">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:gravity="center"
-                            app:cardCornerRadius="10dp"
-                            android:layout_marginRight="5dp"
                             android:elevation="8dp"
-                            android:orientation="vertical">
-
-                            25 24 23
+                            android:gravity="center"
+                            android:layout_marginRight="@dimen/marginSeparadorCardview"
+                            app:cardCornerRadius="@dimen/bordeDeCardView">
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -82,17 +79,18 @@
                                     android:id="@+id/imagenView1"
                                     android:layout_width="80dp"
                                     android:layout_height="65dp"
-                                    android:src="@drawable/teatro"
-                                    android:layout_centerInParent="true"/>
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/teatro" />
+
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Cultura"
-                                    android:textSize="16sp"
                                     android:layout_below="@+id/imagenView1"
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="5dp"
-                                    android:layout_marginBottom="10dp">
+                                    android:layout_marginBottom="10dp"
+                                    android:text="Cultura"
+                                    android:textSize="16sp">
 
                                 </TextView>
 
@@ -100,10 +98,9 @@
                                     android:id="@+id/buttonArte"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="@android:color/transparent" />
+                                    android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
-
 
 
                         </androidx.cardview.widget.CardView>
@@ -112,11 +109,10 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
-                            android:gravity="center"
                             android:elevation="8dp"
-                            app:cardCornerRadius="10dp"
-                            android:layout_marginLeft="5dp"
-                            android:orientation="vertical">
+                            android:gravity="center"
+                            android:layout_marginLeft="@dimen/marginSeparadorCardview"
+                            app:cardCornerRadius="@dimen/bordeDeCardView">
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -126,47 +122,47 @@
                                     android:id="@+id/imagenView2"
                                     android:layout_width="80dp"
                                     android:layout_height="65dp"
-                                    android:src="@drawable/atletismo"
-                                    android:layout_centerInParent="true"/>
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/atletismo" />
+
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Dorte"
-                                    android:textSize="16sp"
                                     android:layout_below="@+id/imagenView2"
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="10dp"
-                                    android:layout_marginBottom="10dp">
+                                    android:layout_marginBottom="10dp"
+                                    android:text="Dorte"
+                                    android:textSize="16sp">
 
                                 </TextView>
+
                                 <Button
+                                    android:id="@+id/buttonDeporte"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/buttonDeporte"
-                                    android:background="@android:color/transparent"/>
+                                    android:background="@android:color/transparent" />
 
                             </RelativeLayout>
-
 
 
                         </androidx.cardview.widget.CardView>
 
                     </LinearLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="150dp"
-                        android:orientation="horizontal"
-                        android:layout_marginBottom="10dp">
+                        android:layout_height="@dimen/AltodeLascardView"
+                        android:orientation="horizontal">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
-                            app:cardCornerRadius="10dp"
-                            android:elevation="8dp"
-                            android:layout_marginRight="5dp"
-                            android:orientation="vertical">
+                            android:layout_marginRight="@dimen/marginSeparadorCardview"
+                            app:cardCornerRadius="@dimen/bordeDeCardView"
+                            android:elevation="8dp">
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -205,10 +201,9 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
-                            app:cardCornerRadius="10dp"
-                            android:elevation="8dp"
-                            android:layout_marginLeft="5dp"
-                            android:orientation="vertical">
+                            android:layout_marginLeft="@dimen/marginSeparadorCardview"
+                            app:cardCornerRadius="@dimen/bordeDeCardView"
+                            android:elevation="8dp">
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -225,9 +220,11 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Diversidad y género"
+
                                     android:textSize="16sp"
                                     android:gravity="center"
                                     android:layout_below="@+id/imagenView4"
+
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginBottom="10dp">
@@ -238,7 +235,7 @@
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btnProfe_diversidad"
+                                    android:id="@+id/btndiversidadygenero"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>

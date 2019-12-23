@@ -1,4 +1,4 @@
-package com.platzi.univalleapp.ui.deporte;
+package com.platzi.univalleapp.ui.Exitoacademico;
 
 
 import android.graphics.Bitmap;
@@ -30,14 +30,14 @@ import org.json.JSONObject;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AjedrezFragment extends Fragment {
+public class bonoFragment extends Fragment {
 
     private TextView textViewTitulo1,textViewTexto1,textViewTitulo2,textViewTexto2,textViewTitulo3,textViewTexto3,
             textViewTitulo4,textViewTexto4,textViewTitulo5,textViewTexto5,textViewTitulo6,textViewTexto6,textViewTitulo7,textViewTexto7,
             textViewTitulo8,textViewTexto8,textViewTitulo9,textViewTexto9,textViewTitulo10,textViewTexto10;
 
     private ImageView imageView1,imageView2,imageView3,imageView4,imageView5,imageView6,imageView7,imageView8,imageView9,imageView10;
-    public AjedrezFragment() {
+    public bonoFragment() {
         // Required empty public constructor
     }
 
@@ -46,7 +46,8 @@ public class AjedrezFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view=inflater.inflate(R.layout.fragment_ajedrez, container, false);
+        View view=inflater.inflate(R.layout.fragment_bono, container, false);
+
         imageView1=view.findViewById(R.id.Mimg_actividad1);
         textViewTitulo1=view.findViewById(R.id.Mtxt_titulo_actividad1);
         textViewTexto1=view.findViewById(R.id.Mtxt_texto_actividad1);
@@ -88,10 +89,8 @@ public class AjedrezFragment extends Fragment {
         imageView10=view.findViewById(R.id.Mimg_actividad10);
 
         TraerImagenJson("http://univalle.tuinvestigacion.com/app/jsn/Cmusicajsn.php");
-
         return view;
     }
-
     public void TraerImagenJson(String URL){
 
         JsonArrayRequest jsonArrayRequest=  new JsonArrayRequest(URL, new Response.Listener<JSONArray>() {
@@ -142,5 +141,4 @@ public class AjedrezFragment extends Fragment {
         }
         return imagen;
     }
-
 }

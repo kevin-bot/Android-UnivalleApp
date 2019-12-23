@@ -22,6 +22,12 @@
         <action
             android:id="@+id/action_nav_bienestar_to_sendFragment"
             app:destination="@id/sendFragment" />
+        <action
+            android:id="@+id/action_nav_bienestar_to_exitoAcademicoFragment"
+            app:destination="@id/exitoAcademicoFragment" />
+        <action
+            android:id="@+id/action_nav_bienestar_to_diversidadYgenero"
+            app:destination="@id/diversidadYgenero" />
     </fragment>
 
     <fragment
@@ -154,5 +160,97 @@
         android:name="com.platzi.univalleapp.ui.deporte.AtletismoFragment"
         android:label="Actidades atletismo"
         tools:layout="@layout/fragment_atletismo" />
+    <fragment
+        android:id="@+id/exitoAcademicoFragment"
+        android:name="com.platzi.univalleapp.ui.Exitoacademico.ExitoAcademicoFragment"
+        android:label="Éxito académico"
+        tools:layout="@layout/fragment_exitoacademico" >
+        <action
+            android:id="@+id/action_exitoAcademicoFragment_to_monitoriaFragment"
+            app:destination="@id/monitoriaFragment" />
+        <action
+            android:id="@+id/action_exitoAcademicoFragment_to_jovenesaccionFragment"
+            app:destination="@id/jovenesaccionFragment" />
+        <action
+            android:id="@+id/action_exitoAcademicoFragment_to_casaestudiantilFragment"
+            app:destination="@id/casaestudiantilFragment" />
+        <action
+            android:id="@+id/action_exitoAcademicoFragment_to_bonoFragment"
+            app:destination="@id/bonoFragment" />
+        <action
+            android:id="@+id/action_exitoAcademicoFragment_to_apollo050Fragment"
+            app:destination="@id/apollo050Fragment" />
+        <action
+            android:id="@+id/action_exitoAcademicoFragment_to_cafeteriaFragment"
+            app:destination="@id/cafeteriaFragment" />
+        <action
+            android:id="@+id/action_exitoAcademicoFragment_to_generacionEFragment"
+            app:destination="@id/generacionEFragment" />
+        <action
+            android:id="@+id/action_exitoAcademicoFragment_to_revicionDDHHFragment"
+            app:destination="@id/revicionDDHHFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/monitoriaFragment"
+        android:name="com.platzi.univalleapp.ui.Exitoacademico.MonitoriaFragment"
+        android:label="Actividades monitoria"
+        tools:layout="@layout/fragment_monitoria" />
+    <fragment
+        android:id="@+id/jovenesaccionFragment"
+        android:name="com.platzi.univalleapp.ui.Exitoacademico.jovenesaccionFragment"
+        android:label="Actividades jovenesaccion"
+        tools:layout="@layout/fragment_jovenesaccion" />
+    <fragment
+        android:id="@+id/bonoFragment"
+        android:name="com.platzi.univalleapp.ui.Exitoacademico.bonoFragment"
+        android:label="Bono estudiantil"
+        tools:layout="@layout/fragment_bono" />
+    <fragment
+        android:id="@+id/casaestudiantilFragment"
+        android:name="com.platzi.univalleapp.ui.Exitoacademico.casaestudiantilFragment"
+        android:label="Casa del estudiantil"
+        tools:layout="@layout/fragment_casaestudiantil" />
+    <fragment
+        android:id="@+id/apollo050Fragment"
+        android:name="com.platzi.univalleapp.ui.Exitoacademico.Apollo050Fragment"
+        android:label="Apollo res"
+        tools:layout="@layout/fragment_apollo050" />
+    <fragment
+        android:id="@+id/cafeteriaFragment"
+        android:name="com.platzi.univalleapp.ui.Exitoacademico.cafeteriaFragment"
+        android:label="Cafeteria"
+        tools:layout="@layout/fragment_cafeteria" />
+    <fragment
+        android:id="@+id/generacionEFragment"
+        android:name="com.platzi.univalleapp.ui.Exitoacademico.generacionEFragment"
+        android:label="Generacion E"
+        tools:layout="@layout/fragment_generacion_e" />
+    <fragment
+        android:id="@+id/revicionDDHHFragment"
+        android:name="com.platzi.univalleapp.ui.Exitoacademico.revicionDDHHFragment"
+        android:label="Revicion_DDHH"
+        tools:layout="@layout/fragment_revicion_ddhh" />
+    <fragment
+        android:id="@+id/diversidadYgenero"
+        android:name="com.platzi.univalleapp.ui.diversidadygenero.DiversidadYgenero"
+        android:label="Diversidad y género"
+        tools:layout="@layout/fragment_diversidad_ygenero" >
+        <action
+            android:id="@+id/action_diversidadYgenero_to_comunidadesetnicas"
+            app:destination="@id/comunidadesetnicas" />
+        <action
+            android:id="@+id/action_diversidadYgenero_to_generoFragment"
+            app:destination="@id/generoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comunidadesetnicas"
+        android:name="com.platzi.univalleapp.ui.diversidadygenero.comunidadesetnicas"
+        android:label="Comunidades étnicas"
+        tools:layout="@layout/fragment_comunidadesetnicas" />
+    <fragment
+        android:id="@+id/generoFragment"
+        android:name="com.platzi.univalleapp.ui.diversidadygenero.generoFragment"
+        android:label="Género"
+        tools:layout="@layout/fragment_genero" />
 
 </navigation>

@@ -35,15 +35,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:layout_marginTop="@dimen/marginArribaLinearSubcategorias"
-                    android:layout_marginLeft="@dimen/marDereLinearCarview"
-                    android:layout_marginRight="@dimen/marIzqLinerarCardView">
+                    android:layout_marginTop="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/AltodeLascardView"
                         android:orientation="horizontal"
-                        android:layout_marginBottom="@dimen/marAbajoEntreCadaCardView">
+                        android:layout_marginBottom="10dp">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="0dp"
@@ -51,7 +51,7 @@
                             android:layout_weight="1"
                             android:gravity="center"
                             android:elevation="8dp"
-                            android:layout_marginRight="@dimen/marginSeparadorCardview"
+                            android:layout_marginRight="5dp"
                             android:orientation="vertical">
 
                             <RelativeLayout
@@ -61,25 +61,26 @@
                                 <ImageView
                                     android:id="@+id/imagenView1"
                                     android:layout_width="80dp"
-                                    android:layout_height="75dp"
+                                    android:layout_height="65dp"
                                     android:layout_centerInParent="true"
                                     android:layout_centerVertical="true"
-                                    android:src="@drawable/baloncesto" />
+                                    android:src="@drawable/monitoria" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_below="@+id/imagenView1"
                                     android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="8dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
                                     android:layout_marginBottom="10dp"
-                                    android:text="Baloncesto"
+                                    android:text="Monitorias"
                                     android:textSize="16sp">
 
                                 </TextView>
 
                                 <Button
-                                    android:id="@+id/btnbaloncesto"
+                                    android:id="@+id/btnmonitoria"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@android:color/transparent" />
@@ -92,7 +93,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
-                            android:layout_marginLeft="@dimen/marginSeparadorCardview"
+                            android:layout_marginLeft="5dp"
                             android:layout_weight="1"
                             android:elevation="8dp"
                             android:gravity="center"
@@ -105,24 +106,24 @@
                                 <ImageView
                                     android:id="@+id/imagenView2"
                                     android:layout_width="80dp"
-                                    android:layout_height="75dp"
+                                    android:layout_height="65dp"
                                     android:layout_centerInParent="true"
-                                    android:src="@drawable/tenisdemesa" />
+                                    android:src="@drawable/usuario" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_below="@+id/imagenView2"
                                     android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="8dp"
+                                    android:layout_marginTop="5dp"
                                     android:layout_marginBottom="10dp"
-                                    android:text="Tenis de mesa"
+                                    android:text="Jovenes en acción"
                                     android:textSize="16sp">
 
                                 </TextView>
 
                                 <Button
-                                    android:id="@+id/btntenisdemesa"
+                                    android:id="@+id/btnjovenesenaccion"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@android:color/transparent" />
@@ -133,12 +134,11 @@
                         </androidx.cardview.widget.CardView>
 
                     </LinearLayout>
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/AltodeLascardView"
                         android:orientation="horizontal"
-                        android:layout_marginBottom="@dimen/marAbajoEntreCadaCardView">
+                        android:layout_marginBottom="10dp">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="0dp"
@@ -146,282 +146,7 @@
                             android:layout_weight="1"
                             android:gravity="center"
                             android:elevation="8dp"
-                            android:layout_marginRight="@dimen/marginSeparadorCardview"
-                            android:orientation="vertical">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imagenView5"
-                                    android:layout_width="80dp"
-                                    android:layout_height="75dp"
-                                    android:src="@drawable/futbol"
-                                    android:layout_centerInParent="true"/>
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="Futbol"
-                                    android:textSize="16sp"
-                                    android:layout_below="@+id/imagenView5"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_marginBottom="10dp">
-
-                                </TextView>
-
-                                <Button
-                                    android:id="@+id/btnFutbol"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:background="@android:color/transparent" />
-
-                            </RelativeLayout>
-
-
-
-                        </androidx.cardview.widget.CardView>
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:elevation="8dp"
-                            android:layout_marginLeft="@dimen/marginSeparadorCardview"
-                            android:orientation="vertical">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imagenView6"
-                                    android:layout_width="80dp"
-                                    android:layout_height="75dp"
-                                    android:src="@drawable/futbolsala"
-                                    android:layout_centerInParent="true"/>
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="Futbol de salon"
-                                    android:textSize="16sp"
-                                    android:layout_below="@+id/imagenView6"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="7dp"
-                                    android:layout_marginBottom="10dp">
-
-                                </TextView>
-
-                                <Button
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:id="@+id/btnFutbolsala"
-                                    android:background="@android:color/transparent"/>
-
-                            </RelativeLayout>
-
-
-
-                        </androidx.cardview.widget.CardView>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/AltodeLascardView"
-                        android:orientation="horizontal"
-                        android:layout_marginBottom="@dimen/marAbajoEntreCadaCardView">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:elevation="8dp"
-                            android:layout_marginRight="@dimen/marginSeparadorCardview"
-                            android:orientation="vertical">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imagenView7"
-                                    android:layout_width="80dp"
-                                    android:layout_height="75dp"
-                                    android:src="@drawable/voeibol"
-                                    android:layout_centerInParent="true"/>
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="Voleibol"
-                                    android:textSize="16sp"
-                                    android:layout_below="@+id/imagenView7"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_marginBottom="10dp">
-
-                                </TextView>
-                                <Button
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:id="@+id/btnvoleibol"
-                                    android:background="@android:color/transparent"/>
-
-                            </RelativeLayout>
-
-
-
-                        </androidx.cardview.widget.CardView>
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:elevation="8dp"
-                            android:layout_marginLeft="@dimen/marginSeparadorCardview"
-                            android:orientation="vertical">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imagenView8"
-                                    android:layout_width="80dp"
-                                    android:layout_height="75dp"
-                                    android:src="@drawable/gimnasio"
-                                    android:layout_centerInParent="true"/>
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="Gimnasio"
-                                    android:textSize="16sp"
-                                    android:layout_below="@+id/imagenView8"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="7dp"
-                                    android:layout_marginBottom="10dp">
-
-                                </TextView>
-                                <Button
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:id="@+id/btngimnasio"
-                                    android:background="@android:color/transparent"/>
-
-                            </RelativeLayout>
-
-
-
-                        </androidx.cardview.widget.CardView>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/AltodeLascardView"
-                        android:orientation="horizontal"
-                        android:layout_marginBottom="@dimen/marAbajoEntreCadaCardView">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:elevation="8dp"
-                            android:layout_marginRight="@dimen/marginSeparadorCardview"
-                            android:orientation="vertical">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imagenView9"
-                                    android:layout_width="80dp"
-                                    android:layout_height="69dp"
-                                    android:src="@drawable/parque"
-                                    android:layout_centerInParent="true"/>
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="Parque recleacional"
-                                    android:textSize="16sp"
-                                    android:layout_below="@+id/imagenView9"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_marginBottom="10dp">
-
-                                </TextView>
-                                <Button
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:id="@+id/btnparquerecreacional"
-                                    android:background="@android:color/transparent"/>
-
-                            </RelativeLayout>
-
-
-
-                        </androidx.cardview.widget.CardView>
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:elevation="8dp"
-                            android:layout_marginLeft="@dimen/marginSeparadorCardview"
-                            android:orientation="vertical">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <ImageView
-                                    android:id="@+id/imagenView10"
-                                    android:layout_width="80dp"
-                                    android:layout_height="75dp"
-                                    android:src="@drawable/natacion"
-                                    android:layout_centerInParent="true"/>
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="Natación"
-                                    android:textSize="16sp"
-                                    android:layout_below="@+id/imagenView10"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="7dp"
-                                    android:layout_marginBottom="10dp">
-
-                                </TextView>
-                                <Button
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:id="@+id/btnnatacion"
-                                    android:background="@android:color/transparent"/>
-
-                            </RelativeLayout>
-
-
-
-                        </androidx.cardview.widget.CardView>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/AltodeLascardView"
-                        android:orientation="horizontal"
-                        android:layout_marginBottom="@dimen/marAbajoEntreCadaCardView">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:gravity="center"
-                            android:elevation="8dp"
-                            android:layout_marginRight="@dimen/marginSeparadorCardview"
+                            android:layout_marginRight="5dp"
                             android:orientation="vertical">
 
                             <RelativeLayout
@@ -431,25 +156,25 @@
                                 <ImageView
                                     android:id="@+id/imagenView3"
                                     android:layout_width="80dp"
-                                    android:layout_height="70dp"
-                                    android:src="@drawable/ajedrez"
+                                    android:layout_height="65dp"
+                                    android:src="@drawable/cadadelestudiante"
                                     android:layout_centerInParent="true"/>
-
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Ajedrez"
+                                    android:text="Casa estudiantil"
                                     android:textSize="16sp"
                                     android:layout_below="@+id/imagenView3"
                                     android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
                                     android:layout_marginBottom="10dp">
 
                                 </TextView>
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btnajedrez"
+                                    android:id="@+id/btncasadeestudiantes"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
@@ -463,7 +188,7 @@
                             android:layout_weight="1"
                             android:gravity="center"
                             android:elevation="8dp"
-                            android:layout_marginLeft="@dimen/marginSeparadorCardview"
+                            android:layout_marginLeft="5dp"
                             android:orientation="vertical">
 
                             <RelativeLayout
@@ -473,24 +198,209 @@
                                 <ImageView
                                     android:id="@+id/imagenView4"
                                     android:layout_width="80dp"
-                                    android:layout_height="72dp"
-                                    android:src="@drawable/atletismo"
+                                    android:layout_height="65dp"
+                                    android:src="@drawable/bono"
                                     android:layout_centerInParent="true"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Atetismo"
+                                    android:text="Bono estudiantil"
                                     android:textSize="16sp"
                                     android:layout_below="@+id/imagenView4"
                                     android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="7dp"
+                                    android:layout_marginTop="5dp"
+                                    android:gravity="center"
                                     android:layout_marginBottom="10dp">
 
                                 </TextView>
                                 <Button
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:id="@+id/btnatletismo"
+                                    android:id="@+id/btnbonoestudiantil"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/AltodeLascardView"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="65dp"
+                                    android:src="@drawable/apolloeocnomico"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Apollo res 050"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imagenView5"
+                                    android:layout_centerHorizontal="true"
+                                    android:gravity="center"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnapollo050"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView6"
+                                    android:layout_width="72dp"
+                                    android:layout_height="62dp"
+                                    android:src="@drawable/cafetreria"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Cafeteria"
+                                    android:gravity="center"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imagenView6"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btncafeteria"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/AltodeLascardView"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView7"
+                                    android:layout_width="80dp"
+                                    android:layout_height="65dp"
+                                    android:src="@drawable/apollo"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Generacion E"
+                                    android:gravity="center"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imagenView7"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnGenereacioneEquidad"
+                                    android:background="@android:color/transparent"/>
+
+                            </RelativeLayout>
+
+
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:elevation="8dp"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imagenView8"
+                                    android:layout_width="80dp"
+                                    android:layout_height="65dp"
+                                    android:src="@drawable/ddhh"
+                                    android:layout_centerInParent="true"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Revición DDHH"
+                                    android:textSize="16sp"
+                                    android:gravity="center"
+                                    android:layout_below="@+id/imagenView8"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="10dp">
+
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btnderechosHumanos"
                                     android:background="@android:color/transparent"/>
 
                             </RelativeLayout>
@@ -504,7 +414,8 @@
 
                 </LinearLayout>
 
-            </RelativeLayout>
+                </RelativeLayout>
+
 
         </LinearLayout>
 

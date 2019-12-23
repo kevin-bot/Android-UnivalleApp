@@ -18,6 +18,7 @@ import static androidx.navigation.Navigation.findNavController;
 public class DeporteFragment extends Fragment {
 
     private ShareViewModel shareViewModel;
+
     private Button btnbaloncesto,btntenisdemesa,btnfutbol,btnfutbolsala, btnvolibol, btngimnasio, btnparque, btnnatacion, btnajedrez,btnatletismo;
 
     private SendViewModel sendViewModel;

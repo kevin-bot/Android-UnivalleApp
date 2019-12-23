@@ -1,4 +1,4 @@
-package com.platzi.univalleapp.ui.slideshow;
+package com.platzi.univalleapp.ui.Exitoacademico;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
