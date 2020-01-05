@@ -8,33 +8,46 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
             android:title="@string/menu_inicio" />
-        <item
-            android:id="@+id/nav_bienestar"
-            android:icon="@drawable/ic_bienestar"
-            android:title="@string/menu_bienestar" />
-       <!-- <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />-->
+
+        <item android:title="@string/menu_bienestar">
+            <menu>
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_cultura"
+                        android:icon="@drawable/ic_accessibility_black_24dp"
+                        android:title="@string/menu_cultura" />
+                    <item
+                        android:id="@+id/nav_deporte"
+                        android:icon="@drawable/ic_deportek_24dp"
+                        android:title="@string/menu_deporte" />
+                    <item
+                        android:id="@+id/nav_exito"
+                        android:icon="@drawable/ic_exitoacademico_24dp"
+                        android:title="@string/menu_exitoacademico" />
+                    <item
+                        android:id="@+id/nav_genero"
+                        android:icon="@drawable/ic_diversidadygenero_24dp"
+                        android:title="@string/menu_Diversidad_y_genero" />
+                </group>
+
+            </menu>
+
+        </item>
 
     </group>
 
     <item android:title="Información">
         <menu>
 
-            <item
-                android:id="@+id/nav_tools"
-                android:icon="@drawable/ic_help"
-                android:title="@string/menu_tools" />
+            <group android:checkableBehavior="single">
 
-            <!--<item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />-->
+                <item
+                    android:id="@+id/nav_tools"
+                    android:icon="@drawable/ic_help"
+                    android:title="@string/menu_tools" />
+
+            </group>
         </menu>
     </item>
 

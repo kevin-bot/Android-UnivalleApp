@@ -40,7 +40,7 @@ public class BienestarUniversitarioFracment extends Fragment {
         });*/
 
 //findNavController(v).navigate(R.id.action_nav_bienestar_to_shareFragment);
-        btnArte_cultu.setOnClickListener(new View.OnClickListener() {
+        /*btnArte_cultu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 findNavController(view).navigate(R.id.action_nav_bienestar_to_shareFragment);
@@ -65,7 +65,7 @@ public class BienestarUniversitarioFracment extends Fragment {
             public void onClick(View view) {
                 findNavController(view).navigate(R.id.action_nav_bienestar_to_diversidadYgenero);
             }
-        });
+        });*/
 
         return view;
     }

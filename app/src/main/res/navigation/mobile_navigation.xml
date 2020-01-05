@@ -12,26 +12,7 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_bienestar"
-        android:name="com.platzi.univalleapp.ui.bienestar.BienestarUniversitarioFracment"
-        android:label="Bienestar Universitario"
-        tools:layout="@layout/fragment_bienestaruniversitario" >
-        <action
-            android:id="@+id/action_nav_bienestar_to_shareFragment"
-            app:destination="@+id/nav_arte" />
-        <action
-            android:id="@+id/action_nav_bienestar_to_sendFragment"
-            app:destination="@id/sendFragment" />
-        <action
-            android:id="@+id/action_nav_bienestar_to_exitoAcademicoFragment"
-            app:destination="@id/exitoAcademicoFragment" />
-        <action
-            android:id="@+id/action_nav_bienestar_to_diversidadYgenero"
-            app:destination="@id/diversidadYgenero" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/nav_arte"
+        android:id="@+id/nav_cultura"
         android:name="com.platzi.univalleapp.ui.Cultura.culturaFracment"
         android:label="Cultura"
         tools:layout="@layout/fragment_cultura" >
@@ -75,7 +56,7 @@
         android:label="Artes plásticas"
         tools:layout="@layout/fragment_fracmentoartesplasticas" />
     <fragment
-        android:id="@+id/sendFragment"
+        android:id="@+id/nav_deporte"
         android:name="com.platzi.univalleapp.ui.deporte.DeporteFragment"
         android:label="Deporte"
         tools:layout="@layout/fragment_send" >
@@ -161,7 +142,7 @@
         android:label="Actidades atletismo"
         tools:layout="@layout/fragment_atletismo" />
     <fragment
-        android:id="@+id/exitoAcademicoFragment"
+        android:id="@+id/nav_exito"
         android:name="com.platzi.univalleapp.ui.Exitoacademico.ExitoAcademicoFragment"
         android:label="Éxito académico"
         tools:layout="@layout/fragment_exitoacademico" >
@@ -231,10 +212,10 @@
         android:label="Revicion_DDHH"
         tools:layout="@layout/fragment_revicion_ddhh" />
     <fragment
-        android:id="@+id/diversidadYgenero"
+        android:id="@+id/nav_genero"
         android:name="com.platzi.univalleapp.ui.diversidadygenero.DiversidadYgenero"
         android:label="Diversidad y género"
-        tools:layout="@layout/fragment_diversidad_ygenero" >
+        tools:layout="@layout/fragment_diversidad_ygenero">
         <action
             android:id="@+id/action_diversidadYgenero_to_comunidadesetnicas"
             app:destination="@id/comunidadesetnicas" />
