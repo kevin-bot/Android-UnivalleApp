@@ -90,7 +90,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
     /*private void cargarfracmento(Fragment fragment){
         FragmentManager fragmentManager=getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.contenedorfracmento,fragment).commit();

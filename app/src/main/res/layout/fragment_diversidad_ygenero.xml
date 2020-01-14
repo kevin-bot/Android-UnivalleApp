@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fondo"
     tools:context=".ui.diversidadygenero.DiversidadYgenero">
 
     <ScrollView
@@ -27,7 +28,7 @@
                     android:layout_height="140dp"
                     android:orientation="vertical"
                     android:gravity="center"
-                    android:background="@color/colorPrimary">
+                    android:background="@drawable/imgdiversidad">
 
 
                 </LinearLayout>
