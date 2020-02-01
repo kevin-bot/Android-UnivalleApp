@@ -13,7 +13,7 @@
     <dimen name="marDereLinearCarview">10dp</dimen>
     <dimen name="marginArribaLinearSubcategorias">80dp</dimen>
     <dimen name="marAbajoEntreCadaCardView">10dp</dimen>
-    <dimen name="marginSeparadorCardview">5dp</dimen>
+    <dimen name="marginSeparadorCardview">2dp</dimen>
 
     <dimen name="margenderecholinearDiversidad">30dp</dimen>
     <dimen name="margenizquierdoLinearDiversidad">30dp</dimen>

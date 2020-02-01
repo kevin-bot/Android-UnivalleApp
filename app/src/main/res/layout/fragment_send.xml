@@ -27,7 +27,7 @@
                     android:layout_height="140dp"
                     android:orientation="vertical"
                     android:gravity="center"
-                    android:background="@drawable/imgdeporte">
+                    android:background="@drawable/side_nav_bar">
 
 
                 </LinearLayout>
